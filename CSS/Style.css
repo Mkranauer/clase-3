@@ -1,0 +1,58 @@
+
+/*
+COLORES.
+
+Palabra Clave: ej: red, blue, cyan, yellow, etc;
+
+Hexadecimal: va con un # y 6 digitos cada par
+ representa en su orden de aparicion al rojo, verde y azul:
+ Ej:
+ #000000->negro;
+ #FFFFFF->blanco;
+ #FF0000->rojo (puede colocarse tmb como #F00 ya que su valor es igual al par que comprende)
+ etc;
+
+RGB: el sistema pasa a ser nuevamente hexadecimal,
+rgb(r,g,b)
+rgb(0,0,0)-> negro
+rgb(255,255,255)-> blanco
+
+RGBA(se puede dar transparencia)
+rgba(255,0,0,0.5);(esta ultima quiere decir que el valor del 255 se encuentra en 50%
+de transparencia que van del 0 al 1)
+*/
+body {
+	background: yellow;	
+	font-size: 10px;
+}
+header{
+	background:blue;
+}
+h1{
+	color: white;
+	font-size: 2.5em;
+}
+.fondo-rosa{
+	background: pink;
+	color:brown;
+	font-size: 30px;
+}
+/*
+MEDIDAS.
+
+Absolutas: (px) pt.;
+
+Relativas: %;
+--medida relativa de tipografia: em;
+
+*/
+.cuadrado1{
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+.cuadrado2{
+	width: 50%;
+	height: 200px;
+	background: green;
+}
